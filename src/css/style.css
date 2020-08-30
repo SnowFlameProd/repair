@@ -88,6 +88,16 @@ img {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  .section {
+    padding: 55px 0;
+  }
+  .section-title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+
 .input {
   border-radius: 10px;
   border: 1px solid #dddddd;
@@ -99,6 +109,10 @@ img {
   outline: none;
   border-radius: 10px;
   border: 1px solid #ffd200;
+}
+
+.arrows__left, .arrows__right {
+  cursor: pointer;
 }
 
 .navbar {
@@ -377,7 +391,6 @@ img {
     padding-right: 0;
   }
   .offer__title {
-    font-size: 18px;
     line-height: 1.1;
   }
   .offer__subtitle {
@@ -397,6 +410,31 @@ img {
   max-width: 768px;
   margin: auto;
   margin-bottom: 100px;
+}
+
+.portfolio__arrows {
+  max-width: 120px;
+  margin: auto;
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.slider__img {
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .portfolio__title {
+    margin-bottom: 40px;
+  }
+  .portfolio__arrows {
+    margin-top: 45px;
+  }
 }
 
 .modal {
@@ -442,4 +480,10 @@ img {
   height: 40px;
   background: url(../img/scroll-up.png);
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .scroll {
+    margin: 0 0 25px 25px;
+  }
 }

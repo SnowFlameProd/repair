@@ -38,6 +38,12 @@ img
     +bold
   &-subtitle
     font-size: 16px
+@media (max-width: 768px)
+  .section
+    padding: 55px 0
+    &-title
+      font-size: 18px
+      line-height: 1.1
 .input
   border-radius: 10px
   border: 1px solid $border-input
@@ -47,3 +53,6 @@ img
     outline: none
     border-radius: 10px
     border: 1px solid $main-color
+.arrows
+  &__left, &__right
+    cursor: pointer
