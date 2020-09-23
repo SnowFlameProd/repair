@@ -590,7 +590,7 @@ img {
   content: url(../img/step/arrow.png);
   position: absolute;
   top: -11px;
-  left: 170px;
+  left: 200px;
 }
 
 @media (max-width: 1200px) {
@@ -622,6 +622,17 @@ img {
   .steps__subtitle {
     margin-bottom: 30px;
   }
+}
+
+.slogan {
+  background-color: #ffd200;
+}
+
+.slogan__title {
+  margin: auto;
+  text-align: center;
+  font-size: 32px;
+  max-width: 910px;
 }
 
 .modal {
