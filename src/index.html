@@ -287,8 +287,8 @@
             <h3 class="form__title">Оставьте заявку на бесплатный расчет ремонта по телефону</h3>
             <span class="form__subtitle">Для этого заполните форму ниже</span>
             <form action="#">
-              <input type="text" class="input brif__input" placeholder="Ваше имя">
-              <input type="text" class="input brif__input" placeholder="Ваш телефон">
+              <input type="text" name="username" required class="input brif__input" placeholder="Ваше имя">
+              <input type="text" class="input brif__input" required placeholder="Ваш телефон">
               <button class="button brif__button">Рассчитать стоимость</button>
               <span class="form__description">Мы перезвоним Вам в течение 60 секунд</span>
             </form>
@@ -301,6 +301,38 @@
     </section>
     <!-- /.section brif -->
   </main>
+
+  <footer class="footer section">
+    <div class="map" id="map">
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A378524b51e0b72abc15e4160ed23edf904654de49026279ed3eaebdc44c7b62d&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=false"></script>
+    </div>
+    <div class="container">
+      <div class="contacts-block">
+        <div class="contacts">
+          <h3 class="contacts__title">Приезжайте к нам в гости!Проконсультируем Вас по всем вопросам ремонта</h3>
+          <ul class="contacts-list">
+            <li class="contacts-list__item">
+              <span class="contacts-list__icon"><img src="img/footer/map-placeholder.png" alt=""></span>
+              <span class="contacts-list__text">г. Москва <br>
+                ул. Ленин а, д. 10, корпус 2, оф. 308</span>
+            </li>
+            <li class="contacts-list__item">
+              <span class="contacts-list__icon"><img src="img/footer/clock-with-white-face.png" alt=""></span>
+              <span class="contacts-list__text">Режим работы: <br>
+                с 9:00 до 18:00</span>
+            </li>
+            <li class="contacts-list__item">
+              <span class="contacts-list__icon"><img src="img/footer/phone-call-button.png" alt=""></span>
+              <span class="contacts-list__text">Телефон: <br>
+              <a href="tel:+7(495)42-251-31">+ 7 (495) 42-251-31</a></span>
+            </li>
+          </ul>
+        </div>
+        <!-- /.contact -->
+      </div>
+      <!-- /.contacts-block -->
+    </div>
+  </footer>
 
   <div class="modal" id="modal">
     <div class="modal-dialog">

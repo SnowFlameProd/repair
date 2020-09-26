@@ -1,0 +1,39 @@
+.footer
+  position: relative
+  padding: 0
+.map
+  position: absolute
+  width: 50%
+  top: 0
+  left: 0
+.contacts
+  flex-basis: 50%
+  padding-top: 100px
+  padding-left: 200px
+  &__title
+    +bold
+    font-size: 22px
+    line-height: 1.4
+    margin-bottom: 100px
+  &-block
+    display: flex
+    justify-content: flex-end
+  &-list
+    list-style: none
+    padding: 0
+    &__icon
+      width: 20px
+      height: 20px
+      line-height: 20px
+      margin-right: 25px
+      padding-top: 4px
+    &__text
+      max-width: 150px
+      line-height: 1.5
+    &__item
+      display: flex
+      align-items: flex-start
+      margin-bottom: 39px
+      a
+        text-decoration: none
+        color: $text-color
